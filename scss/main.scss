@@ -5,6 +5,10 @@ $js-light: #fff;
 $js-font-primary: 'Lato', sans-serif;
 $js-font-secondary: 'Righteous', cursive;
 
+// ## Imports ##
+@import 'navbar';
+
+
 // ## Reset ##
 * {
     margin: 0;
@@ -15,6 +19,9 @@ $js-font-secondary: 'Righteous', cursive;
 body {
     font-family: $js-font-primary;
     font-size: 90.0%;
-    background-color: $js-dark;
-    color: $js-light;
+    background-color: $js-light;
+    color: $js-dark;
+    overflow: hidden;
 }
+
+// 768px mobile close
