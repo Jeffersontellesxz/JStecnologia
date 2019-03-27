@@ -1,0 +1,14 @@
+{
+  "name": "jstecnologia",
+  "version": "1.0.0",
+  "description": "Website Portfolio Profissional",
+  "main": "index.js",
+  "scripts": {
+    "node-sass": "node-sass --watch scss/main.scss css/main.css"
+  },
+  "author": "Jefferson Teles",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

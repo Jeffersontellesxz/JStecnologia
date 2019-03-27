@@ -1,0 +1,20 @@
+// ## Varibles ##
+$js-dark: #111;
+$js-light: #fff;
+
+$js-font-primary: 'Lato', sans-serif;
+$js-font-secondary: 'Righteous', cursive;
+
+// ## Reset ##
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $js-font-primary;
+    font-size: 90.0%;
+    background-color: $js-dark;
+    color: $js-light;
+}
