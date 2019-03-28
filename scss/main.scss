@@ -3,11 +3,12 @@ $js-dark: #111;
 $js-light: #fff;
 
 $js-font-primary: 'Lato', sans-serif;
-$js-font-secondary: 'Righteous', cursive;
+$js-font-secondary: 'Josefin Sans', sans-serif;
 
 // ## Imports ##
 @import 'mixins';
 @import 'navbar';
+@import 'services';
 @import 'showcase';
 
 
@@ -23,7 +24,7 @@ body {
     font-size: 90.0%;
     background-color: $js-light;
     color: $js-dark;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 // 768px mobile close

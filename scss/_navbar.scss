@@ -1,10 +1,11 @@
 // navbar custom background
 .navbar {
     padding: 10px 0;
-    background-color: transparent;
+    background-color: $js-light;
 
     &-brand {
         color: $js-dark !important;
+        font-family: $js-font-secondary;
     }
 }
 
@@ -25,6 +26,7 @@
     background: $js-dark;
     color: $js-light;
     transition: all 0.4s ease-in;
+    z-index: 999;
 
     position: absolute;
     top: 0;
