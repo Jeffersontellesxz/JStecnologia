@@ -2,8 +2,17 @@
 .navbar {
     padding: 10px 0;
     background-color: transparent;
+
+    &-brand {
+        color: $js-dark !important;
+    }
 }
 
+.nav-link {
+    color: $js-dark !important;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
 
 // Mobile
 .navbar-mobile {
@@ -24,8 +33,8 @@
 
 .navbar-close {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 15px;
+    left: 15px;
     font-size: 20px;
     cursor: pointer;
 }
@@ -44,11 +53,18 @@
 
 .navbar-menu {
     cursor: pointer;
+    color: $js-dark;
 }
 
 .show {
     right: 0;
     transition: all 0.4s ease-in;
+}
+
+.navbar-sociais a {
+    font-size: 1.5em;
+    display: inline-block;
+    margin: 2em 0.5em;
 }
 
 

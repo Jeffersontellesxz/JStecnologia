@@ -1,6 +1,13 @@
 .navbar {
   padding: 10px 0;
   background-color: transparent; }
+  .navbar-brand {
+    color: #111 !important; }
+
+.nav-link {
+  color: #111 !important;
+  font-size: 0.8em;
+  text-transform: uppercase; }
 
 .navbar-mobile {
   width: 300px;
@@ -18,8 +25,8 @@
 
 .navbar-close {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 15px;
+  left: 15px;
   font-size: 20px;
   cursor: pointer; }
 
@@ -34,11 +41,17 @@
     color: skyblue; }
 
 .navbar-menu {
-  cursor: pointer; }
+  cursor: pointer;
+  color: #111; }
 
 .show {
   right: 0;
   transition: all 0.4s ease-in; }
+
+.navbar-sociais a {
+  font-size: 1.5em;
+  display: inline-block;
+  margin: 2em 0.5em; }
 
 @media (min-width: 768px) {
   .navbar-menu {
@@ -52,6 +65,61 @@
   .container {
     width: 80%;
     margin: 0 auto; } }
+
+.showcase {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/showcase2.jpg);
+  background-position: bottom center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -999; }
+  .showcase-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    color: #111; }
+    .showcase-content h2 {
+      font-size: 1em;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      margin-bottom: 1em;
+      border-top: 1px solid #111;
+      border-bottom: 1px solid #111;
+      padding: 0.5em; }
+    .showcase-content h1 {
+      font-size: 1.7em;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      margin-bottom: 1em; }
+
+@media (min-width: 769px) {
+  .showcase-content {
+    width: 70%;
+    margin: 0 auto; }
+    .showcase-content h2 {
+      font-size: 1.5em;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: 0.7em;
+      margin-bottom: 1em;
+      border-top: 1px solid #111;
+      border-bottom: 1px solid #111;
+      padding: 0.5em; }
+    .showcase-content h1 {
+      font-size: 2em;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.3em;
+      margin-bottom: 1em; } }
 
 * {
   margin: 0;
