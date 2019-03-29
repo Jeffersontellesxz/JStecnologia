@@ -8,6 +8,7 @@ $js-font-secondary: 'Josefin Sans', sans-serif;
 // ## Imports ##
 @import 'mixins';
 @import 'navbar';
+@import 'portfolio';
 @import 'services';
 @import 'showcase';
 
@@ -25,6 +26,11 @@ body {
     background-color: $js-light;
     color: $js-dark;
     overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+    overflow: hidden;
 }
 
 // 768px mobile close

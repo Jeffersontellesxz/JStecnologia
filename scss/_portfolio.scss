@@ -1,0 +1,46 @@
+// Section Portfolio
+.portfolio {
+    padding: 10rem 0;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)) 
+    ,url(../img/projetos-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: $js-light;
+
+    // Heading
+    h2 {
+        font-size: 2rem;
+        font-weight: 400;
+        font-family: $js-font-secondary;
+        letter-spacing: 0.4rem;
+        margin-bottom: 2rem;
+    }
+
+    // Cards
+    .card {
+        border: 2px solid $js-dark;
+        cursor: pointer;
+        position: relative;
+        transition: all 0.4s ease-in;
+    }
+
+    // Card name
+    .card-nome {
+        background-color: $js-dark;
+        color: $js-light;
+        padding: 1.3rem 0;
+        display: none;
+        transition: all 0.4s ease-in;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    // Card cursor on card-name display block
+    .card:hover > .card-nome {
+        display: block;
+        transition: all 0.4s ease-in;
+    }
+}
