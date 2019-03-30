@@ -61,7 +61,7 @@
   .navbar-mobile {
     display: none; } }
 
-@media (max-width: 768px) {
+@media (max-width: 762px) {
   .navbar-nav {
     display: none; }
   .container {
@@ -99,6 +99,14 @@
   .portfolio .card:hover > .card-nome {
     display: block;
     transition: all 0.4s ease-in; }
+  .portfolio .btn-custom {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-top: 2rem; }
+    .portfolio .btn-custom:hover {
+      background-color: white;
+      color: #111; }
 
 .services {
   padding: 7rem 0; }
@@ -191,6 +199,78 @@
       text-transform: uppercase;
       letter-spacing: 0.5em;
       margin-bottom: 0.7rem; } }
+
+.sobre {
+  padding: 7rem 0; }
+  .sobre-text h2 {
+    font-size: 1.2rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem; }
+    @media (min-width: 768px) {
+      .sobre-text h2 {
+        font-size: 2rem; } }
+  .sobre cite {
+    font-size: 1.2rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300; }
+  .sobre h6 {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1.5rem; }
+  .sobre p {
+    font-weight: 300; }
+  .sobre .progress-name {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem; }
+    .sobre .progress-name span {
+      font-size: 0.7rem;
+      font-weight: 300;
+      text-transform: uppercase; }
+  .sobre .html {
+    width: 95%;
+    animation: html 2s;
+    transition: all 2s ease-in-out; }
+  .sobre .css {
+    width: 80%;
+    animation: css 2s;
+    transition: all 2s ease-in-out; }
+  .sobre .javascript {
+    width: 75%;
+    animation: javascript 2s;
+    transition: all 2s ease-in-out; }
+  .sobre .bootstrap {
+    width: 85%;
+    animation: bootstrap 2s;
+    transition: all 2s ease-in-out; }
+
+@keyframes html {
+  0% {
+    width: 0; }
+  100% {
+    width: 95%; } }
+
+@keyframes css {
+  0% {
+    width: 0; }
+  100% {
+    width: 80%; } }
+
+@keyframes javascript {
+  0% {
+    width: 0; }
+  100% {
+    width: 75%; } }
+
+@keyframes bootstrap {
+  0% {
+    width: 0; }
+  100% {
+    width: 85%; } }
 
 * {
   margin: 0;
