@@ -1,3 +1,21 @@
+.footer {
+  padding: 3rem; }
+  .footer-brand {
+    font-size: 2rem;
+    color: #111; }
+  .footer-info a {
+    display: block;
+    color: #111; }
+  .footer-icons a {
+    color: #111;
+    font-size: 1.3rem;
+    margin: 0.4rem; }
+    .footer-icons a:hover {
+      color: rgba(17, 17, 17, 0.3); }
+  .footer-copyright span {
+    display: block;
+    color: #111; }
+
 .navbar {
   padding: 10px 0;
   background-color: #fff; }
@@ -40,7 +58,7 @@
   margin-bottom: 20px;
   color: #fff; }
   .navbar-mobile a:hover {
-    color: skyblue; }
+    color: #ccc; }
 
 .navbar-menu {
   cursor: pointer;
