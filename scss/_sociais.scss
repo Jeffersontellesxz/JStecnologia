@@ -1,0 +1,31 @@
+// Sociais Section
+.sociais {
+    padding: 5rem 0;
+    background-image: linear-gradient(rgba($js-light,0.8), rgba($js-light,0.8)),
+    url(../img/sociais-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    h2 {
+        font-size: 2rem;
+        font-family: $js-font-secondary;
+        text-transform: uppercase;
+        font-weight: 400;
+        letter-spacing: 0.3rem;
+        margin-bottom: 2rem;
+    }
+
+    &-icons .fab {
+        font-size: 3rem;
+        margin: 1rem;
+        color: $js-dark;
+        border: 2px solid $js-dark;
+        padding: 1rem;
+        transition: all .3s ease-in;
+
+        &:hover {
+            background-color: $js-dark;
+            color: $js-light;
+        }
+    }
+}

@@ -220,7 +220,8 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
-    margin-bottom: 1.5rem; }
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #111; }
   .sobre p {
     font-weight: 300; }
   .sobre .progress-name {
@@ -271,6 +272,29 @@
     width: 0; }
   100% {
     width: 85%; } }
+
+.sociais {
+  padding: 5rem 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/sociais-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
+  .sociais h2 {
+    font-size: 2rem;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+    margin-bottom: 2rem; }
+  .sociais-icons .fab {
+    font-size: 3rem;
+    margin: 1rem;
+    color: #111;
+    border: 2px solid #111;
+    padding: 1rem;
+    transition: all .3s ease-in; }
+    .sociais-icons .fab:hover {
+      background-color: #111;
+      color: #fff; }
 
 * {
   margin: 0;
