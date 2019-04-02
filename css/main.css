@@ -329,3 +329,8 @@ body {
 img {
   width: 100%;
   overflow: hidden; }
+
+#home {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  transition: all 0.5s ease-in; }

@@ -36,4 +36,9 @@ img {
     overflow: hidden;
 }
 
+#home  {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    transition: all 0.5s ease-in;
+}
 // 768px mobile close
