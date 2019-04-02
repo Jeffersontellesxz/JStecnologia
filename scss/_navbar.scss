@@ -2,6 +2,9 @@
 .navbar {
     padding: 10px 0;
     background-color: $js-light;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 
     &-brand {
         color: $js-dark !important;
@@ -26,7 +29,7 @@
     background: $js-dark;
     color: $js-light;
     transition: all 0.4s ease-in;
-    z-index: 999;
+    z-index: 3;
 
     position: absolute;
     top: 0;
@@ -61,6 +64,7 @@
 .show {
     right: 0;
     transition: all 0.4s ease-in;
+    position: fixed;
 }
 
 .navbar-sociais a {

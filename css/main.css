@@ -18,7 +18,10 @@
 
 .navbar {
   padding: 10px 0;
-  background-color: #fff; }
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 2; }
   .navbar-brand {
     color: #111 !important;
     font-family: "Josefin Sans", sans-serif; }
@@ -38,7 +41,7 @@
   background: #111;
   color: #fff;
   transition: all 0.4s ease-in;
-  z-index: 999;
+  z-index: 3;
   position: absolute;
   top: 0;
   right: -300px; }
@@ -66,7 +69,8 @@
 
 .show {
   right: 0;
-  transition: all 0.4s ease-in; }
+  transition: all 0.4s ease-in;
+  position: fixed; }
 
 .navbar-sociais a {
   font-size: 1.5em;
