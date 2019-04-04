@@ -28,8 +28,14 @@
 
 .nav-link {
   color: #424e4f !important;
-  font-size: 0.8em;
-  text-transform: uppercase; }
+  font-size: 1em;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0.5rem;
+  transition: all 0.2s ease-out; }
+  .nav-link:hover {
+    background: #424e4f;
+    color: #fff !important; }
 
 .navbar-mobile {
   width: 300px;
@@ -193,12 +199,13 @@
   display: inline-block;
   border: 2px solid #424e4f;
   padding: 0.6rem 3rem;
-  background-color: transparent;
+  background: transparent;
   color: #424e4f;
+  cursor: pointer;
   margin: 0.6rem 1rem; }
   .btn-custom:hover {
-    background-color: #424e4f;
     color: #fff;
+    background: #424e4f;
     text-decoration: none;
     transition: all 0.4s ease-in; }
 
