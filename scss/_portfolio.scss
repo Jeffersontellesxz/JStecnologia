@@ -17,31 +17,46 @@
     margin-bottom: 2rem;
   }
 
-  // Cards
-  .card {
-    border: 2px solid $js-dark;
-    cursor: pointer;
+  // Portfolio box
+  &-box {
+    border: 5px solid transparent;
+    border-image: linear-gradient(
+      90deg,
+      rgba(73, 73, 73, 0.5),
+      rgba(173, 173, 173, 0.5)
+    );
+    border-image-slice: 1;
     position: relative;
+    cursor: pointer;
     transition: all 0.4s ease-in;
   }
 
-  // Card name
-  .card-nome {
-    background-color: $js-dark;
-    color: $js-light;
-    padding: 1.3rem 0;
-    display: none;
-    transition: all 0.4s ease-in;
+  &-box:hover .portfolio-info {
+    opacity: 1;
+  }
+
+  // Portfolio box info
+  &-info {
+    width: 15%;
+    height: 100%;
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
-    width: 100%;
-  }
+    background: $js-dark;
 
-  // Card cursor on card-name display block
-  .card:hover > .card-nome {
-    display: block;
-    transition: all 0.4s ease-in;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    opacity: 0;
+    transition: all 0.2s ease-in;
+
+    .fas {
+      font-size: 1.7rem;
+      color: $js-light;
+      margin-bottom: 1rem;
+    }
   }
 
   // Button Custom mudança do background

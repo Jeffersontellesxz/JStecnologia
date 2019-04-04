@@ -109,24 +109,33 @@
     font-family: "Josefin Sans", sans-serif;
     letter-spacing: 0.4rem;
     margin-bottom: 2rem; }
-  .portfolio .card {
-    border: 2px solid #424e4f;
-    cursor: pointer;
+  .portfolio-box {
+    border: 5px solid transparent;
+    border-image: linear-gradient(90deg, rgba(73, 73, 73, 0.5), rgba(173, 173, 173, 0.5));
+    border-image-slice: 1;
     position: relative;
+    cursor: pointer;
     transition: all 0.4s ease-in; }
-  .portfolio .card-nome {
-    background-color: #424e4f;
-    color: #fff;
-    padding: 1.3rem 0;
-    display: none;
-    transition: all 0.4s ease-in;
+  .portfolio-box:hover .portfolio-info {
+    opacity: 1; }
+  .portfolio-info {
+    width: 15%;
+    height: 100%;
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
-    width: 100%; }
-  .portfolio .card:hover > .card-nome {
-    display: block;
-    transition: all 0.4s ease-in; }
+    background: #424e4f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    opacity: 0;
+    transition: all 0.2s ease-in; }
+    .portfolio-info .fas {
+      font-size: 1.7rem;
+      color: #fff;
+      margin-bottom: 1rem; }
   .portfolio .btn-custom {
     background-color: transparent;
     border: 2px solid #fff;
