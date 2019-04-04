@@ -1,27 +1,27 @@
 .footer {
-    padding: 3rem;
+  padding: 3rem;
 
-    &-brand {
-        font-size: 2rem;
-        color: $js-dark;
-    }
+  &-brand {
+    font-size: 2rem;
+    color: $js-dark;
+  }
 
-    &-info a {
-        display: block;
-        color: $js-dark;
-    }
+  &-info a {
+    display: block;
+    color: $js-dark;
+  }
 
-    &-icons a {
-        color: $js-dark;
-        font-size: 1.3rem;
-        margin: 0.4rem;
-        &:hover {
-            color: rgba($js-dark, 0.3);
-        }
+  &-icons a {
+    color: $js-dark;
+    font-size: 1.3rem;
+    margin: 0.4rem;
+    &:hover {
+      color: rgba($js-dark, 0.3);
     }
+  }
 
-    &-copyright span {
-        display: block;
-        color: $js-dark;
-    }
+  &-copyright span {
+    display: block;
+    color: $js-dark;
+  }
 }

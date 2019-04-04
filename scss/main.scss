@@ -1,44 +1,41 @@
-// ## Varibles ##
-$js-dark: #111;
+// Varibles
+$js-dark: #424e4f;
 $js-light: #fff;
 
-$js-font-primary: 'Lato', sans-serif;
-$js-font-secondary: 'Josefin Sans', sans-serif;
+$js-font-primary: "Lato", sans-serif;
+$js-font-secondary: "Josefin Sans", sans-serif;
 
-// ## Imports ##
-@import 'footer';
-@import 'mixins';
-@import 'navbar';
-@import 'portfolio';
-@import 'services';
-@import 'showcase';
-@import 'sobre';
-@import 'sociais';
+// Imports
+@import "footer";
+@import "mixins";
+@import "navbar";
+@import "portfolio";
+@import "services";
+@import "showcase";
+@import "sobre";
+@import "sociais";
 
-
-// ## Reset ##
+// Reset
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: $js-font-primary;
-    font-size: 90.0%;
-    background-color: $js-light;
-    color: $js-dark;
-    overflow-x: hidden;
+  font-family: $js-font-primary;
+  font-size: 90%;
+  background-color: $js-light;
+  color: $js-dark;
+  overflow-x: hidden;
 }
 
 img {
-    width: 100%;
-    overflow: hidden;
+  width: 100%;
+  overflow: hidden;
 }
 
-#home  {
-    scroll-behavior: smooth;
-    overflow-y: scroll;
-    transition: all 0.5s ease-in;
+#home {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
 }
-// 768px mobile close

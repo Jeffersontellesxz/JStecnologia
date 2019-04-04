@@ -2,19 +2,19 @@
   padding: 3rem; }
   .footer-brand {
     font-size: 2rem;
-    color: #111; }
+    color: #424e4f; }
   .footer-info a {
     display: block;
-    color: #111; }
+    color: #424e4f; }
   .footer-icons a {
-    color: #111;
+    color: #424e4f;
     font-size: 1.3rem;
     margin: 0.4rem; }
     .footer-icons a:hover {
-      color: rgba(17, 17, 17, 0.3); }
+      color: rgba(66, 78, 79, 0.3); }
   .footer-copyright span {
     display: block;
-    color: #111; }
+    color: #424e4f; }
 
 .navbar {
   padding: 10px 0;
@@ -23,11 +23,11 @@
   width: 100%;
   z-index: 2; }
   .navbar-brand {
-    color: #111 !important;
+    color: #424e4f !important;
     font-family: "Josefin Sans", sans-serif; }
 
 .nav-link {
-  color: #111 !important;
+  color: #424e4f !important;
   font-size: 0.8em;
   text-transform: uppercase; }
 
@@ -38,7 +38,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #111;
+  background: #424e4f;
   color: #fff;
   transition: all 0.4s ease-in;
   z-index: 3;
@@ -65,7 +65,7 @@
 
 .navbar-menu {
   cursor: pointer;
-  color: #111; }
+  color: #424e4f; }
 
 .show {
   right: 0;
@@ -104,12 +104,12 @@
     letter-spacing: 0.4rem;
     margin-bottom: 2rem; }
   .portfolio .card {
-    border: 2px solid #111;
+    border: 2px solid #424e4f;
     cursor: pointer;
     position: relative;
     transition: all 0.4s ease-in; }
   .portfolio .card-nome {
-    background-color: #111;
+    background-color: #424e4f;
     color: #fff;
     padding: 1.3rem 0;
     display: none;
@@ -128,18 +128,18 @@
     margin-top: 2rem; }
     .portfolio .btn-custom:hover {
       background-color: white;
-      color: #111; }
+      color: #424e4f; }
 
 .services {
   padding: 7rem 0; }
   .services .fas {
     font-size: 2em;
     margin-bottom: 1rem;
-    border: 1px solid #111;
+    border: 1px solid #424e4f;
     padding: 1rem;
     cursor: pointer; }
     .services .fas:hover {
-      background: #111;
+      background: #424e4f;
       color: #fff;
       transition: all 0.3s ease-in; }
   .services h4 {
@@ -163,15 +163,15 @@
     text-align: center;
     height: 100vh;
     width: 100%;
-    color: #111; }
+    color: #424e4f; }
     .showcase-content h2 {
       font-size: 1em;
       font-weight: 300;
       text-transform: uppercase;
       letter-spacing: 0.2em;
       margin-bottom: 1em;
-      border-top: 1px solid #111;
-      border-bottom: 1px solid #111;
+      border-top: 1px solid #424e4f;
+      border-bottom: 1px solid #424e4f;
       padding: 0.5em; }
     .showcase-content h1 {
       font-size: 1.3em;
@@ -191,13 +191,13 @@
   text-decoration: none;
   text-transform: uppercase;
   display: inline-block;
-  border: 2px solid #111;
+  border: 2px solid #424e4f;
   padding: 0.6rem 3rem;
   background-color: transparent;
-  color: #111;
+  color: #424e4f;
   margin: 0.6rem 1rem; }
   .btn-custom:hover {
-    background-color: #111;
+    background-color: #424e4f;
     color: #fff;
     text-decoration: none;
     transition: all 0.4s ease-in; }
@@ -212,8 +212,8 @@
       text-transform: uppercase;
       letter-spacing: 0.7em;
       margin-bottom: 1em;
-      border-top: 1px solid #111;
-      border-bottom: 1px solid #111;
+      border-top: 1px solid #424e4f;
+      border-bottom: 1px solid #424e4f;
       padding: 0.5em; }
     .showcase-content h1 {
       font-size: 2em;
@@ -243,7 +243,7 @@
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     margin-bottom: 1.5rem;
-    border-bottom: 1px solid #111; }
+    border-bottom: 1px solid #424e4f; }
   .sobre p {
     font-weight: 300; }
   .sobre .progress-name {
@@ -254,6 +254,8 @@
       font-size: 0.7rem;
       font-weight: 300;
       text-transform: uppercase; }
+  .sobre .bg-dark {
+    background-color: #424e4f !important; }
   .sobre .html {
     width: 95%;
     animation: html 2s;
@@ -310,12 +312,12 @@
   .sociais-icons .fab {
     font-size: 3rem;
     margin: 1rem;
-    color: #111;
-    border: 2px solid #111;
+    color: #424e4f;
+    border: 2px solid #424e4f;
     padding: 1rem;
-    transition: all .3s ease-in; }
+    transition: all 0.3s ease-in; }
     .sociais-icons .fab:hover {
-      background-color: #111;
+      background-color: #424e4f;
       color: #fff; }
 
 * {
@@ -325,9 +327,9 @@
 
 body {
   font-family: "Lato", sans-serif;
-  font-size: 90.0%;
+  font-size: 90%;
   background-color: #fff;
-  color: #111;
+  color: #424e4f;
   overflow-x: hidden; }
 
 img {
@@ -336,5 +338,4 @@ img {
 
 #home {
   scroll-behavior: smooth;
-  overflow-y: scroll;
-  transition: all 0.5s ease-in; }
+  overflow-y: scroll; }

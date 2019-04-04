@@ -1,99 +1,97 @@
 // navbar custom background
 .navbar {
-    padding: 10px 0;
-    background-color: $js-light;
-    position: fixed;
-    width: 100%;
-    z-index: 2;
+  padding: 10px 0;
+  background-color: $js-light;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 
-    &-brand {
-        color: $js-dark !important;
-        font-family: $js-font-secondary;
-    }
+  &-brand {
+    color: $js-dark !important;
+    font-family: $js-font-secondary;
+  }
 }
 
 .nav-link {
-    color: $js-dark !important;
-    font-size: 0.8em;
-    text-transform: uppercase;
+  color: $js-dark !important;
+  font-size: 0.8em;
+  text-transform: uppercase;
 }
 
 // Mobile
 .navbar-mobile {
-    width: 300px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: $js-dark;
-    color: $js-light;
-    transition: all 0.4s ease-in;
-    z-index: 3;
+  width: 300px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: $js-dark;
+  color: $js-light;
+  transition: all 0.4s ease-in;
+  z-index: 3;
 
-    position: absolute;
-    top: 0;
-    right: -300px;             
+  position: absolute;
+  top: 0;
+  right: -300px;
 }
 
 .navbar-close {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    font-size: 20px;
-    cursor: pointer;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .navbar-mobile a {
-    font-size: 1.2em;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: block;
-    margin-bottom: 20px;
-    color: $js-light;
-    &:hover {
-        color: #ccc;
-    }
+  font-size: 1.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 20px;
+  color: $js-light;
+  &:hover {
+    color: #ccc;
+  }
 }
 
 .navbar-menu {
-    cursor: pointer;
-    color: $js-dark;
+  cursor: pointer;
+  color: $js-dark;
 }
 
 .show {
-    right: 0;
-    transition: all 0.4s ease-in;
-    position: fixed;
+  right: 0;
+  transition: all 0.4s ease-in;
+  position: fixed;
 }
 
 .navbar-sociais a {
-    font-size: 1.5em;
-    display: inline-block;
-    margin: 2em 0.5em;
+  font-size: 1.5em;
+  display: inline-block;
+  margin: 2em 0.5em;
 }
 
-
-
 // Ocultar button mobile
-@media(min-width: 768px) {
-    .navbar-menu {
-        opacity: 0;
-    }
+@media (min-width: 768px) {
+  .navbar-menu {
+    opacity: 0;
+  }
 
-    .navbar-mobile {
-        display: none;
-    }
+  .navbar-mobile {
+    display: none;
+  }
 }
 
 // Ocultar navbar-nav modo mobile
-@media(max-width: 762px) {
-    .navbar-nav {
-        display: none;
-    }
+@media (max-width: 762px) {
+  .navbar-nav {
+    display: none;
+  }
 
-    .container {
-        width: 80%;
-        margin: 0 auto;
-    }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
