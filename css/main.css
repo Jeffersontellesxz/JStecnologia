@@ -21,7 +21,10 @@
   background-color: #fff;
   position: fixed;
   width: 100%;
-  z-index: 2; }
+  z-index: 2;
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(90deg, rgba(73, 73, 73, 0.5), rgba(173, 173, 173, 0.5));
+  border-image-slice: 1; }
   .navbar-brand {
     color: #424e4f !important;
     font-family: "Josefin Sans", sans-serif; }
@@ -115,9 +118,11 @@
     border-image-slice: 1;
     position: relative;
     cursor: pointer;
-    transition: all 0.4s ease-in; }
+    transition: all 0.4s ease-in;
+    overflow-y: hidden; }
   .portfolio-box:hover .portfolio-info {
-    opacity: 1; }
+    opacity: 1;
+    transform: translateY(0px); }
   .portfolio-info {
     width: 15%;
     height: 100%;
@@ -131,7 +136,8 @@
     align-items: center;
     padding: 0.5rem;
     opacity: 0;
-    transition: all 0.2s ease-in; }
+    transform: translateY(-230px);
+    transition: all 0.3s ease-in; }
     .portfolio-info .fas {
       font-size: 1.7rem;
       color: #fff;
