@@ -78,8 +78,8 @@
 
 .show {
   right: 0;
-  transition: all 0.4s ease-in;
-  position: fixed; }
+  position: fixed;
+  transition: all 0.4s ease-in; }
 
 .navbar-sociais a {
   font-size: 1.5em;
@@ -101,7 +101,7 @@
 
 .portfolio {
   padding: 10rem 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/projetos-bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projetos-bg1.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -111,7 +111,7 @@
     font-weight: 400;
     font-family: "Josefin Sans", sans-serif;
     letter-spacing: 0.4rem;
-    margin-bottom: 2rem; }
+    margin-bottom: 5rem; }
   .portfolio-box {
     border: 5px solid transparent;
     border-image: linear-gradient(90deg, rgba(73, 73, 73, 0.5), rgba(173, 173, 173, 0.5));
@@ -119,25 +119,42 @@
     position: relative;
     cursor: pointer;
     transition: all 0.4s ease-in;
-    overflow-y: hidden; }
+    overflow: hidden; }
   .portfolio-box:hover .portfolio-info {
     opacity: 1;
-    transform: translateY(0px); }
+    transform: translateX(0px); }
+  .portfolio-box:hover .portfolio-img {
+    opacity: 1;
+    transform: translateX(5px); }
+  .portfolio-img {
+    transition: all 0.4s ease-in;
+    transform: translateX(0); }
   .portfolio-info {
-    width: 15%;
+    width: 70%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    background: #424e4f;
+    background-color: #424e4f;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 0.5rem;
     opacity: 0;
-    transform: translateY(-230px);
+    transform: translateX(-55px);
     transition: all 0.3s ease-in; }
+    .portfolio-info h6 {
+      font-size: 1rem; }
+      .portfolio-info h6 span {
+        color: #ff6600; }
+    .portfolio-info hr {
+      display: block;
+      width: 70%;
+      height: 1px;
+      background-color: #ff6600;
+      color: #ff6600; }
     .portfolio-info .fas {
       font-size: 1.7rem;
       color: #fff;

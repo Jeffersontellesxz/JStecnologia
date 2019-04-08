@@ -1,8 +1,8 @@
 // Section Portfolio
 .portfolio {
   padding: 10rem 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../img/projetos-bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/projetos-bg1.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -14,7 +14,7 @@
     font-weight: 400;
     font-family: $js-font-secondary;
     letter-spacing: 0.4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
   }
 
   // Portfolio box
@@ -29,31 +29,58 @@
     position: relative;
     cursor: pointer;
     transition: all 0.4s ease-in;
-    overflow-y: hidden;
+    overflow: hidden;
   }
 
   &-box:hover .portfolio-info {
     opacity: 1;
-    transform: translateY(0px);
+    transform: translateX(0px);
+  }
+
+  &-box:hover .portfolio-img {
+    opacity: 1;
+    transform: translateX(5px);
+  }
+
+  // Portfolio img
+  &-img {
+    transition: all 0.4s ease-in;
+    transform: translateX(0);
   }
 
   // Portfolio box info
   &-info {
-    width: 15%;
+    width: 70%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    background: $js-dark;
+    background-color: $js-dark;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 0.5rem;
     opacity: 0;
-    transform: translateY(-230px);
+    transform: translateX(-55px);
     transition: all 0.3s ease-in;
+
+    h6 {
+      font-size: 1rem;
+      span {
+        color: $js-color-primary;
+      }
+    }
+
+    hr {
+      display: block;
+      width: 70%;
+      height: 1px;
+      background-color: $js-color-primary;
+      color: $js-color-primary;
+    }
 
     .fas {
       font-size: 1.7rem;
