@@ -98,7 +98,7 @@
 
     &:hover {
       background-color: lighten($js-light, 2);
-      color: $js-dark;
+      color: $js-dark !important;
     }
   }
 }

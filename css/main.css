@@ -2,7 +2,9 @@
   padding: 3rem; }
   .footer-brand {
     font-size: 2rem;
-    color: #424e4f; }
+    color: #424e4f !important; }
+    .footer-brand:hover {
+      color: #424e4f !important; }
   .footer-info a {
     display: block;
     color: #424e4f; }
@@ -27,7 +29,8 @@
   border-image-slice: 1; }
   .navbar-brand {
     color: #424e4f !important;
-    font-family: "Josefin Sans", sans-serif; }
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase; }
 
 .nav-link {
   color: #424e4f !important;
@@ -166,7 +169,7 @@
     margin-top: 2rem; }
     .portfolio .btn-custom:hover {
       background-color: white;
-      color: #424e4f; }
+      color: #424e4f !important; }
 
 .services {
   padding: 7rem 0; }
@@ -236,7 +239,7 @@
   cursor: pointer;
   margin: 0.6rem 1rem; }
   .btn-custom:hover {
-    color: #fff;
+    color: #fff !important;
     background: #424e4f;
     text-decoration: none;
     transition: all 0.4s ease-in; }

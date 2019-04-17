@@ -61,7 +61,7 @@
   margin: 0.6rem 1rem;
 
   &:hover {
-    color: $js-light;
+    color: $js-light !important;
     background: $js-dark;
     text-decoration: none;
     transition: all 0.4s ease-in;

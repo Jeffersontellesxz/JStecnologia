@@ -3,7 +3,10 @@
 
   &-brand {
     font-size: 2rem;
-    color: $js-dark;
+    color: $js-dark !important;
+    &:hover {
+      color: $js-dark !important;
+    }
   }
 
   &-info a {
