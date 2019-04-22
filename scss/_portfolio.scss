@@ -13,6 +13,7 @@
     font-size: 2rem;
     font-weight: 400;
     font-family: $js-font-secondary;
+    text-transform: uppercase;
     letter-spacing: 0.4rem;
     margin-bottom: 5rem;
   }
@@ -78,7 +79,7 @@
     }
   }
 
-  // Button Custom mudança do background
+  // Button Custom background
   .btn-custom {
     background-color: transparent;
     border: 2px solid $js-light;

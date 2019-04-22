@@ -1,3 +1,17 @@
+.contact {
+  padding: 7rem 0; }
+  .contact-header {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto; }
+    .contact-header h3 {
+      font-size: 2rem;
+      font-family: "Josefin Sans", sans-serif;
+      text-transform: uppercase;
+      font-weight: 400;
+      letter-spacing: 0.3rem;
+      margin-bottom: 2rem; }
+
 .footer {
   padding: 3rem; }
   .footer-brand {
@@ -110,6 +124,7 @@
     font-size: 2rem;
     font-weight: 400;
     font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
     letter-spacing: 0.4rem;
     margin-bottom: 5rem; }
   .portfolio-box {
