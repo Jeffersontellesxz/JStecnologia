@@ -32,6 +32,7 @@
     overflow: hidden;
   }
 
+  // Efeitos Hover Box e Img
   &-box:hover .portfolio-info {
     opacity: 1;
     transform: translateX(0px);
@@ -39,23 +40,24 @@
 
   &-box:hover .portfolio-img {
     opacity: 1;
-    transform: translateX(5px);
+    filter: grayscale(70);
   }
 
   // Portfolio img
   &-img {
     transition: all 0.4s ease-in;
     transform: translateX(0);
+    filter: grayscale(0);
   }
 
   // Portfolio box info
   &-info {
-    width: 70%;
+    width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: $js-dark;
+    background-color: transparent;
 
     display: flex;
     flex-direction: column;
@@ -64,28 +66,15 @@
     text-align: center;
     padding: 0.5rem;
     opacity: 0;
-    transform: translateX(-55px);
     transition: all 0.3s ease-in;
-
-    h6 {
-      font-size: 1rem;
-      span {
-        color: $js-color-primary;
-      }
-    }
-
-    hr {
-      display: block;
-      width: 70%;
-      height: 1px;
-      background-color: $js-color-primary;
-      color: $js-color-primary;
-    }
 
     .fas {
       font-size: 1.7rem;
       color: $js-light;
+      background-color: $js-dark;
+      border-radius: 5px;
       margin-bottom: 1rem;
+      padding: 0.5rem;
     }
   }
 
