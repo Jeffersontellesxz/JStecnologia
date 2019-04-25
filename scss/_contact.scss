@@ -17,4 +17,12 @@
       margin-bottom: 2rem;
     }
   }
+
+  //   Contact info
+  &-info {
+    background-color: $js-dark;
+    color: $js-light;
+    padding: 1rem;
+    border-radius: 5px;
+  }
 }

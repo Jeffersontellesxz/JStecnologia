@@ -11,47 +11,54 @@
       font-weight: 400;
       letter-spacing: 0.3rem;
       margin-bottom: 2rem; }
+  .contact-info {
+    background-color: #2d3239;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px; }
 
 .footer {
-  padding: 3rem; }
+  padding: 3rem;
+  background-color: #2d3239;
+  color: #425059; }
   .footer-brand {
     font-size: 2rem;
-    color: #090b0d !important; }
+    color: #425059 !important; }
     .footer-brand:hover {
-      color: #090b0d !important; }
+      color: #fff !important; }
   .footer-info a {
     display: block;
-    color: #090b0d; }
+    color: #425059; }
   .footer-icons a {
-    color: #090b0d;
+    color: #425059;
     font-size: 1.3rem;
     margin: 0.4rem; }
     .footer-icons a:hover {
-      color: #425059; }
+      color: #fff; }
   .footer-copyright span {
     display: block;
-    color: #090b0d; }
+    color: #425059; }
 
 .navbar {
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #2d3239;
   position: fixed;
   width: 100%;
   z-index: 2; }
   .navbar-brand {
-    color: #090b0d !important;
+    color: #425059 !important;
     font-family: "Josefin Sans", sans-serif;
     text-transform: uppercase; }
 
 .nav-link {
-  color: #090b0d !important;
+  color: #425059 !important;
   font-size: 1em;
   text-transform: uppercase;
   margin: 0;
   padding: 0.5rem;
   transition: all 0.4s ease-out; }
   .nav-link:hover {
-    background: #090b0d;
+    background: #2d3239;
     color: #fff !important; }
 
 .navbar-mobile {
@@ -61,7 +68,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #090b0d;
+  background: #2d3239;
   color: #fff;
   transition: all 0.4s ease-in;
   z-index: 3;
@@ -88,7 +95,7 @@
 
 .navbar-menu {
   cursor: pointer;
-  color: #090b0d; }
+  color: #2d3239; }
 
 .show {
   right: 0;
@@ -163,7 +170,7 @@
     .portfolio-info .fas {
       font-size: 1.7rem;
       color: #fff;
-      background-color: #090b0d;
+      background-color: #2d3239;
       border-radius: 5px;
       margin-bottom: 1rem;
       padding: 0.5rem; }
@@ -174,18 +181,18 @@
     margin-top: 2rem; }
     .portfolio .btn-custom:hover {
       background-color: white;
-      color: #090b0d !important; }
+      color: #2d3239 !important; }
 
 .services {
   padding: 7rem 0; }
   .services .fas {
     font-size: 2em;
     margin-bottom: 1rem;
-    border: 1px solid #090b0d;
+    border: 1px solid #2d3239;
     padding: 1rem;
     cursor: pointer; }
     .services .fas:hover {
-      background: #090b0d;
+      background: #2d3239;
       color: #fff;
       transition: all 0.3s ease-in; }
   .services h4 {
@@ -209,15 +216,15 @@
     text-align: center;
     height: 100vh;
     width: 100%;
-    color: #090b0d; }
+    color: #2d3239; }
     .showcase-content h2 {
       font-size: 1em;
       font-weight: 300;
       text-transform: uppercase;
       letter-spacing: 0.2em;
       margin-bottom: 1em;
-      border-top: 1px solid #090b0d;
-      border-bottom: 1px solid #090b0d;
+      border-top: 1px solid #2d3239;
+      border-bottom: 1px solid #2d3239;
       padding: 0.5em; }
     .showcase-content h1 {
       font-size: 1.3em;
@@ -237,15 +244,15 @@
   text-decoration: none;
   text-transform: uppercase;
   display: inline-block;
-  border: 2px solid #090b0d;
+  border: 2px solid #2d3239;
   padding: 0.6rem 3rem;
   background: transparent;
-  color: #090b0d;
+  color: #2d3239;
   cursor: pointer;
   margin: 0.6rem 1rem; }
   .btn-custom:hover {
     color: #fff !important;
-    background: #090b0d;
+    background: #2d3239;
     text-decoration: none;
     transition: all 0.4s ease-in; }
 
@@ -259,8 +266,8 @@
       text-transform: uppercase;
       letter-spacing: 0.7em;
       margin-bottom: 1em;
-      border-top: 1px solid #090b0d;
-      border-bottom: 1px solid #090b0d;
+      border-top: 1px solid #2d3239;
+      border-bottom: 1px solid #2d3239;
       padding: 0.5em; }
     .showcase-content h1 {
       font-size: 2em;
@@ -290,7 +297,7 @@
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     margin-bottom: 1.5rem;
-    border-bottom: 1px solid #090b0d; }
+    border-bottom: 1px solid #2d3239; }
   .sobre p {
     font-weight: 300; }
   .sobre .progress-name {
@@ -302,7 +309,7 @@
       font-weight: 300;
       text-transform: uppercase; }
   .sobre .bg-dark {
-    background-color: #090b0d !important; }
+    background-color: #2d3239 !important; }
   .sobre .html {
     width: 95%;
     animation: html 2s;
@@ -359,12 +366,12 @@
   .sociais-icons .fab {
     font-size: 3rem;
     margin: 1rem;
-    color: #090b0d;
-    border: 2px solid #090b0d;
+    color: #2d3239;
+    border: 2px solid #2d3239;
     padding: 1rem;
     transition: all 0.3s ease-in; }
     .sociais-icons .fab:hover {
-      background-color: #090b0d;
+      background-color: #2d3239;
       color: #fff; }
 
 * {
@@ -376,7 +383,7 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 90%;
   background-color: #fff;
-  color: #090b0d;
+  color: #2d3239;
   overflow-x: hidden; }
 
 img {

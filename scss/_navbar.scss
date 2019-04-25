@@ -1,7 +1,7 @@
 // navbar custom background
 .navbar {
   padding: 10px 0;
-  background-color: $js-light;
+  background-color: $js-dark;
   position: fixed;
   width: 100%;
   z-index: 2;
@@ -15,14 +15,14 @@
   //   border-image-slice: 1;
 
   &-brand {
-    color: $js-dark !important;
+    color: $js-dark-alpha !important;
     font-family: $js-font-secondary;
     text-transform: uppercase;
   }
 }
 
 .nav-link {
-  color: $js-dark !important;
+  color: $js-dark-alpha !important;
   font-size: 1em;
   text-transform: uppercase;
   margin: 0;
