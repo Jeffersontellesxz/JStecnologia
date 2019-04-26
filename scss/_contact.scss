@@ -4,9 +4,16 @@
 
   //   Header
   &-header {
-    width: 60%;
+    width: 100%;
     text-align: center;
-    margin: 0 auto;
+    margin: auto;
+
+    // Media Header
+    @media (min-width: 950px) {
+      width: 60%;
+      margin: auto;
+      text-align: center;
+    }
 
     h3 {
       font-size: 2rem;
@@ -20,9 +27,46 @@
 
   //   Contact info
   &-info {
-    background-color: $js-dark;
-    color: $js-light;
     padding: 1rem;
     border-radius: 5px;
+
+    // Links Info
+    a {
+      color: $js-dark-alpha;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  //   Contact Map
+  &-map iframe {
+    display: none;
+
+    // Media Iframe Map
+    @media (min-width: 760px) {
+      display: block;
+      width: 100%;
+      height: 336px;
+    }
+  }
+
+  //   Custom Formulario
+  &-form {
+    background-color: $js-dark;
+    color: $js-dark-alpha;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px $js-dark-alpha;
+  }
+
+  //   Btn Form
+  .btn-form {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: $js-dark-alpha;
+    border: 1px solid $js-dark-alpha;
   }
 }
