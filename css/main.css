@@ -89,13 +89,13 @@
   text-decoration: none;
   display: block;
   margin-bottom: 20px;
-  color: #fff; }
+  color: #425059; }
   .navbar-mobile a:hover {
-    color: #ccc; }
+    color: #fff; }
 
 .navbar-menu {
   cursor: pointer;
-  color: #2d3239; }
+  color: #425059; }
 
 .show {
   right: 0;
@@ -169,7 +169,7 @@
     transition: all 0.3s ease-in; }
     .portfolio-info .fas {
       font-size: 1.7rem;
-      color: #fff;
+      color: #425059;
       background-color: #2d3239;
       border-radius: 5px;
       margin-bottom: 1rem;
