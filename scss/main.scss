@@ -1,14 +1,5 @@
-// Varibles Custumers Project...
-
-// Colors Custumers
-$js-dark: #2d3239;
-$js-dark-alpha: #5c6164;
-$js-light: #fff;
-// Fontes Custumers
-$js-font-primary: "Lato", sans-serif;
-$js-font-secondary: "Josefin Sans", sans-serif;
-
 // Imports Files
+@import "config";
 @import "contact";
 @import "footer";
 @import "mixins";
