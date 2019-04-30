@@ -6,11 +6,6 @@
   background-position: bottom center;
   background-size: cover;
 
-  // position: absolute;
-  // top: 0;
-  // left: 0;
-  // z-index: -999;
-
   // Centralizar Conteudo
   &-content {
     display: flex;
@@ -53,7 +48,8 @@
   text-decoration: none;
   text-transform: uppercase;
   display: inline-block;
-  border: 2px solid $js-dark;
+  border: 1px solid $js-dark;
+  border-radius: 3rem;
   padding: 0.6rem 3rem;
   background: transparent;
   color: $js-dark;
@@ -64,7 +60,9 @@
     color: $js-light !important;
     background: $js-dark;
     text-decoration: none;
-    transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in-out;
+    transform: translateY(-5px);
+    @include shadowBtn;
   }
 }
 

@@ -104,8 +104,8 @@
 
 .navbar-close {
   position: absolute;
-  top: 15px;
-  left: 15px;
+  top: 25px;
+  left: 25px;
   font-size: 20px;
   cursor: pointer; }
 
@@ -168,6 +168,8 @@
     cursor: pointer;
     transition: all 0.4s ease-in;
     overflow: hidden; }
+    .portfolio-box:hover {
+      box-shadow: 0px 0px 10px #2d3239; }
   .portfolio-box:hover .portfolio-info {
     opacity: 1;
     transform: translateX(0px); }
@@ -220,7 +222,8 @@
     .services .fas:hover {
       background: #2d3239;
       color: #fff;
-      transition: all 0.3s ease-in; }
+      transition: all 0.3s ease-in;
+      box-shadow: 0px 0px 10px #2d3239; }
   .services h4 {
     font-size: 1em;
     font-weight: 500;
@@ -270,7 +273,8 @@
   text-decoration: none;
   text-transform: uppercase;
   display: inline-block;
-  border: 2px solid #2d3239;
+  border: 1px solid #2d3239;
+  border-radius: 3rem;
   padding: 0.6rem 3rem;
   background: transparent;
   color: #2d3239;
@@ -280,7 +284,9 @@
     color: #fff !important;
     background: #2d3239;
     text-decoration: none;
-    transition: all 0.4s ease-in; }
+    transition: all 0.4s ease-in-out;
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 10px #2d3239; }
 
 @media (min-width: 769px) {
   .showcase-content {
@@ -398,7 +404,8 @@
     transition: all 0.3s ease-in; }
     .sociais-icons .fab:hover {
       background-color: #2d3239;
-      color: #fff; }
+      color: #fff;
+      box-shadow: 0px 0px 10px #2d3239; }
 
 * {
   margin: 0;

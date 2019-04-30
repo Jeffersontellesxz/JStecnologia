@@ -31,6 +31,10 @@
     cursor: pointer;
     transition: all 0.4s ease-in;
     overflow: hidden;
+
+    &:hover {
+      @include shadowBtn;
+    }
   }
 
   // Efeitos Hover Box e Img
