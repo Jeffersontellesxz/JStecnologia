@@ -85,14 +85,9 @@
 
   // Button Custom background
   .btn-custom {
-    background-color: transparent;
+    background-color: $js-dark;
     border: 2px solid $js-dark;
-    color: $js-dark;
+    color: $js-light;
     margin-top: 2rem;
-
-    &:hover {
-      background-color: $js-dark;
-      color: $js-light !important;
-    }
   }
 }
