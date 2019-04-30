@@ -1,17 +1,14 @@
 // Varibles Custumers Project...
 
-// Colors
+// Colors Custumers
 $js-dark: #2d3239;
 $js-dark-alpha: #5c6164;
 $js-light: #fff;
-$js-color-primary: #ff6600;
-$js-color-secondary: #6db3bf;
-
-// Fontes
+// Fontes Custumers
 $js-font-primary: "Lato", sans-serif;
 $js-font-secondary: "Josefin Sans", sans-serif;
 
-// Imports
+// Imports Files
 @import "contact";
 @import "footer";
 @import "mixins";
@@ -22,7 +19,7 @@ $js-font-secondary: "Josefin Sans", sans-serif;
 @import "sobre";
 @import "sociais";
 
-// Reset
+// Reset CSS
 * {
   margin: 0;
   padding: 0;
@@ -42,6 +39,7 @@ img {
   overflow: hidden;
 }
 
+// Hover Efect
 #home {
   scroll-behavior: smooth;
   overflow-y: scroll;

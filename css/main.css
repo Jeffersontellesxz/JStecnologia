@@ -74,8 +74,7 @@
   z-index: 2; }
   .navbar-brand {
     color: #5c6164 !important;
-    font-family: "Josefin Sans", sans-serif;
-    text-transform: uppercase; }
+    font-family: "Josefin Sans", sans-serif; }
 
 .nav-link {
   color: #5c6164 !important;
@@ -149,11 +148,11 @@
 
 .portfolio {
   padding: 10rem 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projetos-bg1.jpg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(../img/projetos-bg1.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  color: #fff; }
+  color: #2d3239; }
   .portfolio h2 {
     font-size: 2rem;
     font-weight: 400;
@@ -203,12 +202,12 @@
       padding: 0.5rem; }
   .portfolio .btn-custom {
     background-color: transparent;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid #2d3239;
+    color: #2d3239;
     margin-top: 2rem; }
     .portfolio .btn-custom:hover {
-      background-color: white;
-      color: #2d3239 !important; }
+      background-color: #2d3239;
+      color: #fff !important; }
 
 .services {
   padding: 7rem 0; }

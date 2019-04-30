@@ -1,12 +1,12 @@
 // Section Portfolio
 .portfolio {
   padding: 10rem 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba($js-light, 0.4), rgba($js-light, 0.4)),
     url(../img/projetos-bg1.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  color: $js-light;
+  color: $js-dark;
 
   // Heading
   h2 {
@@ -82,13 +82,13 @@
   // Button Custom background
   .btn-custom {
     background-color: transparent;
-    border: 2px solid $js-light;
-    color: $js-light;
+    border: 2px solid $js-dark;
+    color: $js-dark;
     margin-top: 2rem;
 
     &:hover {
-      background-color: lighten($js-light, 2);
-      color: $js-dark !important;
+      background-color: $js-dark;
+      color: $js-light !important;
     }
   }
 }
