@@ -25,8 +25,14 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
-    margin-bottom: 1.5rem;
-    border-bottom: 1px solid $js-dark;
+
+    // Line
+    &::after {
+      content: "";
+      display: block;
+      margin-top: 1rem;
+      border-bottom: 1px solid lighten($js-dark-alpha, 10%);
+    }
   }
 
   p {
